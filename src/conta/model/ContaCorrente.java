@@ -28,7 +28,7 @@ public class ContaCorrente extends Conta {
     
     public void visualizar() {
     	super.visualizar();
-    	System.out.println("\n\nLimite de cretido: " + this.limite);
+    	System.out.println("\n\nLimite de credido: " + this.limite);
     	
     }
 	
