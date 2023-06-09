@@ -68,7 +68,7 @@ public abstract class Conta {
     	this.setSaldo(this.getSaldo() + valor);
     }
     
-    public void viasualizar() {
+    public void visualizar() {
     	String tipo = "";
     	
     	switch (this.tipo) {
@@ -88,9 +88,4 @@ public abstract class Conta {
     	System.out.println("Titular: " + this.titular);
     	System.out.println("Saldo: "+ this.saldo);
     }
-
-	public void visualizar() {
-		
-		
-	}
 }
